@@ -60,3 +60,62 @@ h1 {
   vertical-align: top;
   margin-bottom: 114px;
 }
+
+article {
+  width: 140px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.like,
+.heart {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like img {
+  width: 23.78px;
+  height: 24.17px;
+}
+
+.heart img {
+  width: 25.26px;
+  height: 22.03px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #f2f2f2;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+footer {
+  width: 300px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.stars {
+  width: 272px;
+  height: 51px;
+  box-sizing: border-box;
+}
+
+.stars img {
+  width: 51px;
+  height: 51px;
+}
